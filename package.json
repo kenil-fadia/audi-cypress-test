@@ -1,0 +1,23 @@
+{
+  "name": "audi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open-s": "cypress open -C cypress.s.json",
+    "open-m": "cypress open -C cypress.m.json",
+    "open-xl": "cypress open -C cypress.xl.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.26.5",
+    "cypress": "^9.7.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-xpath": "^2.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
